@@ -73,11 +73,6 @@
     <lastmod>2022-12-09T19:53:33+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blogs/math/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/blogs/math/"
                 />
@@ -153,11 +148,6 @@
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blogs/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/blogs/markdown-syntax/"
                 />
@@ -231,11 +221,6 @@
   </url><url>
     <loc>http://localhost:1313/fr/blogs/rich-content/</loc>
     <lastmod>2021-04-03T19:53:33+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blogs/rich-content/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
