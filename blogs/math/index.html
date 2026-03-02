@@ -138,7 +138,13 @@ $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &
 
 
 <meta name="description" content="">
+
+
 <link rel="stylesheet" href="/css/single.css">
+
+
+
+<link rel="stylesheet" href="/css/custom.min.8c31749158cc4e7d59b82b00edc15fc0806757aa78256c11bba8e3a176e50cfa.css">
 
 
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
@@ -381,7 +387,6 @@ Render Math With Mathjax | Hugo Profile
                 <small>|</small>
               
               Feb 25, 2026
-
               
               <span id="readingTime">
                 min read
@@ -389,13 +394,15 @@ Render Math With Mathjax | Hugo Profile
               
             </div>
           </div>
+
           
           <div class="featured-image">
             <img class="img-fluid mx-auto d-block" src="/images/mathjax.png" alt="Render Math With Mathjax">
           </div>
           
-          <article class="page-content  p-2">
-          <h2 id="mathjax">Mathjax</h2>
+
+          <article class="page-content p-2">
+            <h2 id="mathjax">Mathjax</h2>
 <p>Math equations can be rendered using <a href="https://www.mathjax.org">Mathjax</a> syntax with AMS symbol support.</p>
 <p>Optionally enable this on a per-page basis by adding <code>mathjax: true</code> to your frontmatter.</p>
 <p>Then, use <code>$$ ... $$</code> on a line by itself to render a block equation:</p>
@@ -406,22 +413,78 @@ Render Math With Mathjax | Hugo Profile
 <pre tabindex="0"><code>Write in-line equations with `\\( ... \\)` , like \\( x^n / y \\) . It&#39;s easy!
 </code></pre>
           </article>
+
+          
+          
+<section id="about">
+  <h2>About Me</h2>
+
+  
+    <p>I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+
+I am currently working on a project that will be used to help people find the best way to get around the city.</p>
+  
+
+  
+    <h3>Here are a few technologies I&#39;ve been working with recently:</h3>
+
+    <div class="skills-grid">
+      
+        <div class="skill-item">HTML</div>
+      
+        <div class="skill-item">CSS</div>
+      
+        <div class="skill-item">JavaScript Developmen</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">Node</div>
+      
+        <div class="skill-item">Express</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+        <div class="skill-item">React Long Description</div>
+      
+    </div>
+  
+</section>
+
         </div>
       </div>
+
       <div class="col-sm-12 col-md-12 col-lg-3">
         <div id="stickySideBar" class="sticky-sidebar">
           
           <aside class="toc">
-              <h5>
-                Table Of Contents
-              </h5>
-              <div class="toc-content">
-                <nav id="TableOfContents">
+            <h5>Table Of Contents</h5>
+            <div class="toc-content">
+              <nav id="TableOfContents">
   <ul>
     <li><a href="#mathjax">Mathjax</a></li>
   </ul>
 </nav>
-              </div>
+            </div>
           </aside>
           
 
@@ -430,20 +493,23 @@ Render Math With Mathjax | Hugo Profile
             <h5>Tags</h5>
             <ul class="tags-ul list-unstyled list-inline">
               
+              <li class="list-inline-item">
+                <a href="/tags/markdown-syntax"
+                  target="_blank"
+                >Markdown syntax</a>
+              </li>
               
-              <li class="list-inline-item"><a href="/tags/markdown-syntax"
-                target="_blank"
-              >Markdown syntax</a></li>
+              <li class="list-inline-item">
+                <a href="/tags/mathjax"
+                  target="_blank"
+                >Mathjax</a>
+              </li>
               
-              
-              <li class="list-inline-item"><a href="/tags/mathjax"
-                target="_blank"
-              >Mathjax</a></li>
-              
-              
-              <li class="list-inline-item"><a href="/tags/example"
-                target="_blank"
-              >example</a></li>
+              <li class="list-inline-item">
+                <a href="/tags/example"
+                  target="_blank"
+                >example</a>
+              </li>
               
             </ul>
           </aside>
@@ -481,12 +547,14 @@ Render Math With Mathjax | Hugo Profile
         </div>
       </div>
     </div>
+
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9 p-4">
         
       </div>
     </div>
   </div>
+
   <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
     <i class="fas fa-angle-up"></i>
   </button>
@@ -496,13 +564,12 @@ Render Math With Mathjax | Hugo Profile
 <div class="progress">
   <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-<Script src="/js/scrollProgressBar.js"></script>
+<script src="/js/scrollProgressBar.js"></script>
 
 
 <script>
   var topScroll = document.getElementById("topScroll");
   window.onscroll = function() {scrollFunction()};
-
   function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       topScroll.style.display = "block";
@@ -510,13 +577,11 @@ Render Math With Mathjax | Hugo Profile
       topScroll.style.display = "none";
     }
   }
-
   function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
 
-  
   let stickySideBarElem = document.getElementById("stickySideBar");
   let stickyNavBar =  true ;
   if(stickyNavBar) {
@@ -530,7 +595,6 @@ Render Math With Mathjax | Hugo Profile
 
 
 <script src="/js/readingTime.js"></script>
-
 
 
   </div><footer>
@@ -581,6 +645,31 @@ Render Math With Mathjax | Hugo Profile
             <div class="card h-100">
                 
                 <div class="card-header">
+                    <a href="/blogs/ethics/">
+                        <img src="/images/ethics.jpg" class="card-img-top" alt="Data Ethics">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/ethics/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Data Ethics">Data Ethics</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><p>This is Ethics Blog</p>
+<p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">February 20, 2026</span>
+                    <a href="/blogs/ethics/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
                     <a href="/blogs/placeholder-text/">
                         <img src="/images/ethics.jpg" class="card-img-top" alt="Placeholder Text">
                     </a>
@@ -598,34 +687,6 @@ Render Math With Mathjax | Hugo Profile
                 <div class="mt-auto card-footer">
                     <span class="float-start">February 20, 2026</span>
                     <a href="/blogs/placeholder-text/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 pt-2">
-            <div class="card h-100">
-                
-                <div class="card-header">
-                    <a href="/blogs/emoji-support/">
-                        <img src="/images/post.jpg" class="card-img-top" alt="Ethics">
-                    </a>
-                </div>
-                
-                <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/blogs/emoji-support/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Ethics">Ethics</h5>
-                    </a>
-                    <div class="card-text secondary-font">
-                        <p><p>Summary of my ethics</p>
-<h2 id="ethics-summary">Ethics Summary</h2>
-<p>The summary of our ethics blog</p>
-<hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a …</p></p>
-                    </div>
-                </div>
-                <div class="mt-auto card-footer">
-                    <span class="float-start">April 3, 2021</span>
-                    <a href="/blogs/emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>

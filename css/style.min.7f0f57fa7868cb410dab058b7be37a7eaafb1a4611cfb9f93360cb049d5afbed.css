@@ -1,0 +1,1 @@
+.about-skills{margin-top:30px}.skills-title{margin-bottom:20px}.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px 40px}.skill-item{position:relative;padding-left:18px;font-size:.95rem}.skill-item::before{content:"▹";position:absolute;left:0;color:#64ffda}

@@ -6,14 +6,6 @@
     <description>Recent content in Emoji Support on Hugo Profile</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/emoji-support/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ethics</title>
-      <link>http://localhost:1313/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/emoji-support/</guid>
-      <description>&lt;p&gt;Summary of my ethics&lt;/p&gt;&#xA;&lt;h2 id=&#34;ethics-summary&#34;&gt;Ethics Summary&lt;/h2&gt;&#xA;&lt;p&gt;The summary of our ethics blog&lt;/p&gt;&#xA;&lt;hr&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.emoji {&#xD;&#xA;  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;&#xD;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
   </channel>
 </rss>
